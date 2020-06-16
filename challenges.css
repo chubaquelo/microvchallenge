@@ -1,0 +1,81 @@
+body {
+  text-align: center;
+  background-image: url(https://i.imgur.com/IuXWAd1.jpg);
+  color: white;
+  font-family: sans-serif;
+  background-repeat: no-repeat; 
+  background-attachment: fixed;
+  background-size: cover;
+
+}
+
+#description {
+  color: black;
+  font-size: 16px;
+}
+
+div {
+  text-align: left;
+  background: #0000008c;
+  margin: 2em 25em;
+}
+
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  font-size: 40px;
+}
+
+#survey-form {
+  padding: 20px;
+}
+
+#name, #email, #number {
+  width: 80%;
+  align-content: center;
+  padding: 10px;
+  font-size: 20px;
+}
+
+#name-label, #email-label, #number-label {
+  font-size: 20px;
+  padding: 0 0 20px 0;
+}
+
+#comm {
+  width: 90%;
+}
+
+#role {
+  font-size: 20px;
+}
+
+.label {
+  font-size: 18px;
+}
+
+.myButton {
+	box-shadow:inset 0px 1px 0px 0px #f9eca0;
+	background:linear-gradient(to bottom, #f0c911 5%, #f2ab1e 100%);
+	background-color:#f0c911;
+	border-radius:6px;
+	border:1px solid #e65f44;
+	display:inline-block;
+	cursor:pointer;
+	color:#c92200;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+  text-shadow:0px 1px 0px #ded17c;
+  
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #f2ab1e 5%, #f0c911 100%);
+	background-color:#f2ab1e;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
